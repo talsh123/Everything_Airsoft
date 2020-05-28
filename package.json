@@ -1,0 +1,37 @@
+{
+  "name": "everything_airsoft",
+  "version": "1.0.0",
+  "description": "Everything Airsoft Website - Final College Project Youd Dalet",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "frontend": "cd frontend && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run frontend\"",
+    "frontend-install": "cd frontend && npm install",
+    "frontend-uninstall": "cd frontend && npm uninstall"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talsh123/Everything_Airsoft.git"
+  },
+  "author": "Talshalom Ben Ovadia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/talsh123/Everything_Airsoft/issues"
+  },
+  "homepage": "http://localhost/build/index.html",
+  "dependencies": {
+    "@sendgrid/mail": "^7.1.1",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.21.0",
+    "concurrently": "^5.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "mongoose": "^5.9.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
