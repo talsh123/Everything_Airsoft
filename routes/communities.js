@@ -3,7 +3,7 @@ const Community = require('../models/Community');
 require('dotenv').config();
 const cloudinary = require('cloudinary').v2;
 const mongoose = require('mongoose');
-const fileUpload = require('express-fileUpload');
+const fileUpload = require('express-fileupload');
 
 const router = express.Router();
 router.use(express.urlencoded({ extended: true }));

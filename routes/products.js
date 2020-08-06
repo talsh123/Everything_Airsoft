@@ -3,7 +3,7 @@ const Product = require('../models/Product');
 const Rating = require('../models/Rating');
 require('dotenv').config();
 const cloudinary = require('cloudinary').v2;
-const fileUpload = require('express-fileUpload');
+const fileUpload = require('express-fileupload');
 
 const router = express.Router();
 router.use(express.urlencoded({ extended: true }));
